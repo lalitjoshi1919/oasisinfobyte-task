@@ -1,0 +1,90 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.left{
+    width: 40%;
+    height: 100%;
+    position: relative;
+}
+.right{
+    width: 60%;
+    height: 100%;
+    background-color: blue;
+}
+.right-top{
+    width: 100%;
+    height:50%;
+    background-color: rgb(0, 255, 68);
+    display: flex;
+}
+.right-bottom{
+    width: 100%;
+    height:50%;
+    background-color: rgb(255, 0, 195);
+    background-image: url(https://media.istockphoto.com/id/1498267367/photo/multi-lane-freeway-at-sunset.webp?b=1&s=170667a&w=0&k=20&c=zCR81SItXpGcE00KhqVDJ9HmMxJUgBPaEPZXpyxAqRE=);
+    background-size: cover;
+    background-position: center;
+}
+.right-top-r{
+    width: 50%;
+    height:100%;
+    background-image: url(https://images.unsplash.com/photo-1540331547168-8b63109225b7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1438&q=80);
+    background-size: cover;
+    background-position: center;
+}
+.right-top-l{
+    width: 50%;
+    height:100%;
+    background-image: url(https://images.unsplash.com/photo-1565691410967-4e1c68077b5d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fG9yYW5nZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60);
+    background-size: cover;
+    background-position: center;
+   
+}
+.nav-bar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+.nav-bar-r a{
+    padding-left: 20px;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bolder;
+    color: black;
+}
+.nav-bar-r i{
+    padding-left: 106px;
+    color: rgb(6, 189, 189);
+}
+.border:hover{
+    text-decoration: solid;
+    color: orange;
+}
+.text-center a{
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 700;
+    color: black;
+}
+.text-center h1{
+    font-size: 2.5rem;
+}
+.left .text-center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
